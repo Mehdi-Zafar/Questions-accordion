@@ -1,5 +1,3 @@
-
-
 const button = document.querySelectorAll("button.plus");
 const answer = document.querySelectorAll("div.answer");
 
@@ -12,8 +10,7 @@ button.forEach((el) =>{
             answer.forEach((e) =>{
                 e.style = "display:none";
             })
-            ans.style = "display:block";
+            ans.style = "display:block";    
         }
-        // answer.splice(el.id - 1,1);
     })
 })
