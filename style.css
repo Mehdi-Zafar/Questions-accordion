@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300");
+
+* {
+  font-family: "Averia Serif Libre", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/background.jpg");
+}
+
+div.container {
+  position: absolute;
+  left: 38%;
+  top: 10%;
+}
+
+div.container h1 {
+  color: brown;
+  text-align: center;
+}
+
+div.question {
+  margin: 10px;
+  padding: 10px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  box-shadow: 0 2px 5px black;
+  border-radius: 10px;
+  font-size: large;
+  clear: both;
+  width: 300px;
+}
+
+div.answer {
+  margin-inline: 10px;
+  width: 300px;
+  padding: 10px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  box-shadow: 0 2px 5px black;
+  border-radius: 10px;
+  font-size: large;
+  text-align: start;
+  display: none;
+}
+
+button.plus {
+  /* position: absolute;
+  right: 6%;
+  text-align: right; */
+  font-size: large;
+  float: right;
+  background-color: cornsilk;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  transition: all 0.3s;
+}
+
+button.plus:hover {
+  transition: all 0.3s;
+  transform: rotate(90deg);
+}
+
+.show {
+  display: block;
+}
